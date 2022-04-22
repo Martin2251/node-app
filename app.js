@@ -1,10 +1,6 @@
-function sayHello(name){
-    console.log("Hello " + name);
 
-}
+const log = require("./logger");
 
-//sayHello("Martin");
+log('message');
 
-console.log(window);
-
-console.log(); // global scope globally avaliuble 
+// functions and variables are scoped to that module
